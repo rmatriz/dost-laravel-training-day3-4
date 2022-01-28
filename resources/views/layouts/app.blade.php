@@ -40,6 +40,10 @@
                     <ul class="navbar-nav ms-auto">
 
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('products.vueproducts') }}">{{ __('Vue Products') }}</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('categories.index') }}">{{ __('Categories') }}</a>
                         </li>
                         <li class="nav-item">

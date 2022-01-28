@@ -19,6 +19,12 @@ class ProductController extends Controller
         ]);
     }
 
+    public function vueproductapp() 
+    {
+        return view('product.vueproductsapp');
+
+    }
+
     public function show($id)
     {
         $categories = Product::find($id)->category()->get();
